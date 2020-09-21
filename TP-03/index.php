@@ -1,5 +1,15 @@
 <?php
-// Récupération des données du formulaire, puis sortie du script PHP
+// Ajouter votre réponse sur le formulaire :
+// https://forms.gle/LmPNMh3HnHVVNz3M8
+
+// Récupérer les données du formulaire, puis sortir du script PHP
+
+// Tester l'envois du formulaire
+// - on test la methode de requete (GET ou POST)
+
+// Récupération des données du formulaire, puis affichage (echo)
+
+// Sortie du script
 
 ?>
 <!DOCTYPE html>
