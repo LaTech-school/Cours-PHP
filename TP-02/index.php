@@ -18,3 +18,7 @@ $arr = [
 //      Belt, Money
 // Superman
 //      Lazer eyes, Fly, Speed
+
+// lister de definition HTML <dl> <dt> <dd> w3school
+// instruction php "for" ou "foreach"
+// instruction php "implode"
