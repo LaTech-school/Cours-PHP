@@ -7,11 +7,36 @@
 // Tester l'envois du formulaire
 // - on test la methode de requete (GET ou POST)
 
-// Récupération des données du formulaire, puis affichage (echo)
+// PAS BON !!
+// if ( isset($_POST) )
+// {
+//     echo "Le formulaire est soumis !";
+// }
 
-// Sortie du script
+// OK
+// if ( isset($_POST['submit']) )
+// {
+//     echo "Le formulaire est soumis !";
+// }
+
+if ( $_SERVER['REQUEST_METHOD'] === "POST" )
+{
+    echo "Le formulaire est soumis !<br>";
+
+    // Récupération des données du formulaire, puis affichage (echo)
+    echo $_POST['firstname']."<br>";
+    echo $_POST['lastname']."<br>";
+    echo $_POST['password']."<br>";
+    echo $_POST['agreeterms']."<br>";
+    
+    // Sortie du script
+    // die;
+    exit;
+}
+
 
 ?>
+<pre><?php print_r($_POST) ?></pre>
 <!DOCTYPE html>
 <html lang="en">
 <head>
