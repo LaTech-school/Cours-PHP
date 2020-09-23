@@ -65,3 +65,11 @@ UPDATE `articles` SET `content`="This is an other new content value....." WHERE 
 ```sql
 DELETE FROM `articles` WHERE `id`=7;
 ```
+
+### RESET de le table
+
+Remise à zéro des données et eds id de la table.
+
+```sql
+TRUNCATE `articles`;
+```
