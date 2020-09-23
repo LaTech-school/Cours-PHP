@@ -59,3 +59,9 @@ SELECT `title`, `content`FROM `articles` WHERE `id`=3;
 ```sql 
 UPDATE `articles` SET `content`="This is an other new content value....." WHERE `id`=2;
 ```
+
+### DELETE
+
+```sql
+DELETE FROM `articles` WHERE `id`=7;
+```
