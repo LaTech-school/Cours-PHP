@@ -55,3 +55,7 @@ SELECT `title`, `content`FROM `articles` WHERE `id`=3;
 ```
 
 ### UPDATE
+
+```sql 
+UPDATE `articles` SET `content`="This is an other new content value....." WHERE `id`=2;
+```
