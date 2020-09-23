@@ -33,5 +33,25 @@ INSERT INTO `articles` (`title`, `content`) VALUES ("My first article !", "Lorem
 INSERT INTO `articles` (`title`, `content`) VALUES ("My second article !", "Lorem ipsum... blablabla..."), ("My third article !", "Lorem ipsum... blablabla...");
 ```
 
-### READ  /RETRIEVE
+### READ / RETRIEVE
 
+Liste toutes les colonnes de toutes les entrées de la table articles.
+
+```sql
+SELECT * FROM `articles`;
+```
+
+Liste de certaines colonnes de toutes les entrées de la table articles.
+
+```sql 
+SELECT `title`, `read_counter` FROM `articles`;
+```
+
+Appliquer un filtre dur certaines entrées de la table.
+ex: recupération du titre et du contenu de l'article qui possède l'id : 3
+
+```sql 
+SELECT `title`, `content`FROM `articles` WHERE `id`=3;
+```
+
+### UPDATE
